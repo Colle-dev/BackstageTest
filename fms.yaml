@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: fms
+  namespace: fms
   description: Flottenmanagementsystem
   tags:
     - portal
