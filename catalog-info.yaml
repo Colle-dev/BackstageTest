@@ -4,12 +4,8 @@ metadata:
   name: TestComponent
   namespace: TestComponents
   description: Component for testpurposes
-  labels: 
-  annotations: 
   tags: 
     - typescript
-  links: 
-specs: 
 relations: 
   - 
     target: 
