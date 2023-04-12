@@ -11,3 +11,4 @@ spec:
   lifecycle: production
   owner: user:guest
   system: fms
+  consumedBy: ['groot']
