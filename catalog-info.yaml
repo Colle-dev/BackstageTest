@@ -11,5 +11,5 @@ spec:
   lifecycle: production
   owner: user:guest
   system: fms
-  subcomponentOf: fms/fury
+  subcomponentOf: 'fms/fury'
   dependsOn: ['fms/groot']
