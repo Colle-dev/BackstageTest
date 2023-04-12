@@ -10,3 +10,5 @@ spec:
   lifecycle: production
   owner: netfleets
   system: fms
+  subcomponentOf: 'fury'
+  dependsOn: ['component:korg']
