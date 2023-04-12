@@ -10,5 +10,5 @@ spec:
   lifecycle: production
   owner: netfleets
   system: fms
-  subcomponentOf: 'fms/fury'
-  dependsOn: ['component:fms/groot']
+  subcomponentOf: 'fury'
+  dependsOn: ['component:groot']

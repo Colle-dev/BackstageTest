@@ -10,4 +10,4 @@ spec:
   lifecycle: production
   owner: netfleets
   system: fms
-  dependsOn: ['component:fms/groot']
+  dependsOn: ['component:groot']
