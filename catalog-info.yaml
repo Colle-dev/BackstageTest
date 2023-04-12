@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: coulsen
-  namespace: fms
   description: SAP Connector
   tags:
     - typescript
@@ -11,5 +10,4 @@ spec:
   lifecycle: production
   owner: user:guest
   system: fms
-  subcomponentOf: 'fms/fury'
   dependsOn: ['component:fms/groot']
