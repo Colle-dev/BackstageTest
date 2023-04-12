@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: jds
+  description: Jungheinrich Digital Solutions
+spec:
+  type: department
+  profile:
+    displayName: JDS
+  children: [Netfleets, myFavoriteTeam]
