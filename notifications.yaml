@@ -2,12 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: notifications
-  namespace: fms
   description: user notifications
   tags:
     - typescript
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
+  owner: netfleets
   system: fms

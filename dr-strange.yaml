@@ -2,12 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: dr-strange
-  namespace: fms
   description: Inventory+Locations Module
   tags:
     - typescript
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
+  owner: netfleets
   system: fms
+  subcomponentOf: 'fms/fury'
+  dependsOn: ['component:fms/coulsen', 'component:fms/korg', 'component:fms/groot']

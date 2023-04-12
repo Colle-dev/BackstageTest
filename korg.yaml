@@ -2,12 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: korg
-  namespace: fms
   description: User Module
   tags:
     - typescript
 spec:
   type: service
   lifecycle: production
-  owner: user:guest
+  owner: netfleets
   system: fms
+  subcomponentOf: 'fms/fury'
+  dependsOn: ['component:fms/groot']
