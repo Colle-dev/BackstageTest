@@ -1,15 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TestComponent
-  namespace: TestComponents
-  description: Component for testpurposes
+  name: Groot
+  namespace: FMS
+  description: License Module
   tags: 
     - typescript
-relations: 
-  - 
-    target: 
-      kind: Component
-      namespace: TestComponents
-      name: TestComponent2
-    type: dependencyOf
+spec:
+  type: service
+  lifecycle: production
+  owner: 
+  system: FMS
