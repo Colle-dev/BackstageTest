@@ -12,4 +12,4 @@ spec:
   owner: user:guest
   system: fms
   subcomponentOf: 'fms/fury'
-  dependsOn: ['fms/groot']
+  dependsOn: ['component:fms/groot']
